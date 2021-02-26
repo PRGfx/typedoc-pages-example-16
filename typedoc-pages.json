@@ -1,0 +1,23 @@
+{
+    "name": "namespace example",
+    "entryPoints": [
+        "./src/one/index.ts",
+        "./src/two/index.ts"
+    ],
+    "out": "docs-pages",
+    "theme": "pages-plugin",
+    "pages": {
+        "groups": [
+            {
+                "title": "markdown",
+                "pages": [
+                    {
+                        "title": "example",
+                        "source": "./docs-src/page.md"
+                    }
+                ]
+            }
+        ]
+    }
+}
+

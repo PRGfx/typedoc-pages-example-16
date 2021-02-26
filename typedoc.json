@@ -1,0 +1,9 @@
+{
+    "name": "namespace example",
+    "entryPoints": [
+        "./src/one/index.ts",
+        "./src/two/index.ts"
+    ],
+    "out": "docs"
+}
+
